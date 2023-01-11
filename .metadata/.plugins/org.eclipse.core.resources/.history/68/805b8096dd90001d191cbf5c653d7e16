@@ -1,0 +1,25 @@
+package bytebank;
+
+public class TestaMetodo {
+
+	public static void main(String[] args) {
+		
+		Conta contaDaLarissa = new Conta();
+		
+		      contaDaLarissa.saldo = 200;
+		
+		    //  contaDaLarissa.deposita(50);
+		
+		System.out.println(contaDaLarissa.saldo);
+		  
+		    //  contaDaLarissa.retirar(200);
+		
+		//System.out.println("Valor atual: " + contaDaLarissa.saldo);
+		
+			contaDaLarissa.saca(250); //metodo saca na class conta
+			
+			System.out.println(contaDaLarissa.saldo);
+	
+	}
+
+}

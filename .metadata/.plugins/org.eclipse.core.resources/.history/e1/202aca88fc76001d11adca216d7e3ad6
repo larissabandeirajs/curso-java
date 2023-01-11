@@ -1,0 +1,29 @@
+
+public class TestaWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int contador = 1;
+		int cont = 1;
+        while(contador <= 10) {
+            System.out.println(contador);
+            contador = contador + 1;
+                   
+            
+        }
+        
+        while(cont <=10) {
+        
+        	
+        	
+        	
+        	cont = cont * contador;
+        	
+        	System.out.println(cont + "x" + contador);
+        	
+        	cont = cont +1;
+        }
+	}
+
+}

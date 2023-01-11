@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\Visua\Desktop\desktop\oracle curso java\.metadata\.plugins\org.eclipse.jdt.core
+2174185088.index
+2702459774.index
+1693911205.index
+2258321661.index
+1374762053.index
+1865797976.index

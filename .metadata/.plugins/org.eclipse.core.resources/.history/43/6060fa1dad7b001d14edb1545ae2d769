@@ -1,0 +1,31 @@
+package bytebank;
+
+public class CriarConta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Conta primeiraConta = new Conta();
+		  primeiraConta.saldo = 200;
+		  primeiraConta.agencia = 0605;
+		  primeiraConta.numero = 666;
+		  primeiraConta.titular = "Larissa Bandeira de Jesus";
+		  
+		 // System.out.println(primeiraConta.saldo);
+		
+	Conta segundaConta = new Conta();
+	      segundaConta.saldo = 3000;
+	      segundaConta.agencia = 1208;
+	      segundaConta.numero = 131;
+	      segundaConta.titular = "Nathalia Strehl Amoros";
+	      
+	      System.out.print("Imprimindo a segunda conta: ");
+	      System.out.println(segundaConta.saldo);
+	      System.out.println(segundaConta.agencia);
+	      System.out.println(segundaConta.numero);
+	      System.out.println(segundaConta.titular);
+		
+		
+	}
+
+}
