@@ -1,0 +1,18 @@
+
+public class TesteFuncionario {
+	
+	public static void main(String[] args) {
+		
+		Funcionario larissa = new Funcionario();
+		
+		larissa.setNome("Larissa Bandeira de Jesus");
+		larissa.setCpf("487.172.308-96");
+		larissa.setSalario(2600.00);
+		
+		System.out.println(larissa.getNome());
+		System.out.println(larissa.getCpf());
+		System.out.println(larissa.getSalario());
+		System.out.println(larissa.getBonificacao());
+	}
+
+}

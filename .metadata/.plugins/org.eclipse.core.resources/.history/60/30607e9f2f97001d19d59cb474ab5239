@@ -1,0 +1,11 @@
+// Gerente herda da classe Funcionario
+public class EditorVideo extends Funcionario {
+	
+
+	public double getBonificacao(){
+		c
+	  	return 150; // salario vem da classe mae		
+	   }
+	   
+
+}

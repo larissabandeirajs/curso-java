@@ -1,0 +1,17 @@
+
+public class TesteReferencias {
+
+	public static void main(String[] args) {
+
+		
+	Gerente gerente1 = new Gerente();
+	gerente1.setNome("Nathalia");
+	String nome = gerente1.getNome();
+	
+	System.out.println(nome);
+	
+	
+
+	}
+
+}

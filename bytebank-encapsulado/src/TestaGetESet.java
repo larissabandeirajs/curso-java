@@ -2,7 +2,7 @@ public class TestaGetESet {
 	
 	public static void main(String[] args) {
 		
-		Conta conta = new Conta();
+		Conta conta = new Conta(666, 6665);
 		
 		conta.setContaCorrente(1337); //set inserir
 		

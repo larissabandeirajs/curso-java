@@ -1,0 +1,38 @@
+
+public class TesteDeTiposDeFuncionario {
+	
+	public static void main(String[] args) {
+		
+		FuncionarioTeste funcionario1 = new FuncionarioTeste();
+		
+		funcionario1.setTipo(0);
+		funcionario1.setSalario(3000);
+		
+		System.out.println(funcionario1.getTipo());
+		System.out.println(funcionario1.getBonificacao());
+		
+		System.out.println("***********************************");
+		
+		FuncionarioTeste funcionario2 = new FuncionarioTeste();
+		
+		funcionario2.setTipo(1);
+		funcionario2.setSalario(5000);
+
+		
+		System.out.println(funcionario2.getTipo());
+		System.out.println(funcionario2.getBonificacao());
+		
+		System.out.println("***********************************");
+		
+		FuncionarioTeste funcionario3 = new FuncionarioTeste();
+		
+		funcionario3.setTipo(2);
+		funcionario3.setSalario(8000);
+		
+		System.out.println(funcionario3.getTipo());
+		System.out.println(funcionario3.getBonificacao());
+		
+		
+	}
+	
+}

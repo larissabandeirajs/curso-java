@@ -1,0 +1,13 @@
+
+public class TesteDeTiposDeFuncionario {
+	
+	public static void main(String[] args) {
+		
+		FuncionarioTeste funcionario1 = new FuncionarioTeste();
+		
+		
+		System.out.println(funcionario1.getTipo());
+		
+	}
+	
+}

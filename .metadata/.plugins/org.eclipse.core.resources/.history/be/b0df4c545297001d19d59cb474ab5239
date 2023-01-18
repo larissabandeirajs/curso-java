@@ -1,0 +1,22 @@
+// Gerente heh um funcionario, Gerente herda da class Funcionario, assina o contrato Autenticavel
+public class Gerente extends Funcionario implements Autenticavel{
+	
+	public double getBonificacao(){
+		System.out.println("Chamando o Método de bonificacao do Gerente");
+	  	return super.getSalario(); // salario vem da classe mae		
+	   }
+
+	@Override
+	public void setSenha(int senha) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	   
+
+}

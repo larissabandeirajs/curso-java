@@ -1,0 +1,10 @@
+// Gerente herda da classe Funcionario
+public class Designer extends Funcionario {
+	
+
+	public double getBonificacao(){
+	  	return super.getBonificacao() + 100; // salario vem da classe mae		
+	   }
+	   
+
+}

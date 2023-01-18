@@ -1,0 +1,27 @@
+
+public class TesteGerente {
+	
+	public static void main(String[] args) {
+		
+		Autentica gerente2 = new  Gerente();
+		
+		Gerente gerente1 = new  Gerente();
+		
+		gerente1.setNome("Larissa");
+		gerente1.setCpf("22222");
+		gerente1.setSalario(500.00);
+		
+		System.out.println(gerente1.getNome());
+		System.out.println(gerente1.getCpf());
+		System.out.println(gerente1.getSalario());
+		
+	//	gerente1.setSenha(1234);
+		
+	//	boolean autenticou = gerente1.autentica(1234);
+		
+	//	System.out.println(autenticou);
+		System.out.println(gerente1.getBonificacao());
+	 
+	}
+
+}
